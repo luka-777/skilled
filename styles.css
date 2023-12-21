@@ -1,0 +1,405 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+h1{
+    font-family: Plus Jakarta Sans;
+}
+
+.button_header{
+    display: flex;
+    width: 120px;
+    height: 40px;
+    border-radius: 28px;
+    background: var(--13183F, #13183F);
+    justify-content: center;
+
+}
+
+.button_header button{
+    background: none;
+    border: none;
+}
+
+.text h1{
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    padding: 3%;
+}
+
+.p1 p{
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    line-height: 26px;
+    font-size: 16px;
+    padding: 3%;
+}
+
+
+
+.button_text-under{
+    display: flex;
+    width: 140px;
+    height: 50px;
+    border-radius: 31.5px;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    justify-content: center;
+    margin-left: 3%;
+}
+
+.button_text-under button{
+    background: none;
+    border: none;
+}
+
+.circle{
+    width: 353px;
+    height: 330px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    margin-left: 3%;
+    background-image: url(./images/image-hero-mobile.png);
+    
+}
+
+.martkutxedi{
+    width: 145px;
+    height: 90px; 
+    position: relative;
+    bottom: 25%;
+    right: 15%;
+    border-radius: 10px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+    padding: 6%;
+}
+
+
+
+.circle p{
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+}
+
+.martkutxedi_2{
+    width: 110px;
+    height: 90px;
+    position: relative;
+    left: 70%;
+    bottom: 140%;
+    border-radius: 10px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+    padding: 6%;
+}
+
+.center{
+    width: 343px;
+    height: 120px;
+    margin: 4%;
+    border-radius: 10px;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+
+
+}
+
+.center h1{
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 8%;
+}
+
+.box_1{
+    width: 343px;
+    height: 283px;
+    margin: 4%;
+    padding-left: 7%;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+
+}
+
+.box_1 h1{
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    padding-top: 8%;
+}
+
+.box_1 p{
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    padding-top: 8%;
+}
+
+.box_1 button{
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    background: none;
+    border: none;
+    padding-top: 8%;
+}
+
+
+
+
+
+.box_2{
+    width: 343px;
+    height: 283px;
+    margin: 4%;
+    padding-left: 7%;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+
+}
+
+.box_2 h1{
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    padding-top: 8%;
+}
+
+.box_2 p{
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    padding-top: 8%;
+}
+
+.box_2 button{
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    background: none;
+    border: none;
+    padding-top: 8%;
+}
+
+
+
+
+
+.box_3{
+    width: 343px;
+    height: 283px;
+    margin: 4%;
+    padding-left: 7%;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+
+}
+
+.box_3 h1{
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    padding-top: 8%;
+}
+
+.box_3 p{
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    padding-top: 8%;
+}
+
+.box_3 button{
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    background: none;
+    border: none;
+    padding-top: 8%;
+}
+
+
+
+
+
+
+
+.box_4{
+    width: 343px;
+    height: 283px;
+    margin: 4%;
+    padding-left: 7%;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+
+}
+
+.box_4 h1{
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    padding-top: 8%;
+}
+
+.box_4 p{
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    padding-top: 8%;
+}
+
+.box_4 button{
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    background: none;
+    border: none;
+    padding-top: 8%;
+}
+
+
+
+
+
+.box_5{
+    width: 343px;
+    height: 283px;
+    margin: 4%;
+    padding-left: 7%;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+
+.box_5 h1{
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    padding-top: 8%;
+}
+
+.box_5 p{
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    padding-top: 8%;
+}
+
+.box_5 button{
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    background: none;
+    border: none;
+    padding-top: 8%;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background: var(--13183F, #13183F);
+}
+
+.button_footer{
+    display: flex;
+    width: 120px;
+    height: 40px;
+    border-radius: 28px;
+    background: var(--Gradient-2, linear-gradient(180deg, #4851FF 0%, #F02AA6 100%));
+    justify-content: center;
+
+}
+
+.button_footer button{
+    background: none;
+    border: none;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 8%;
+}
+
+
+@media (width > 800px){
+    .header{
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+
+@media (width > 800px){
+    .ss{
+        display: flex;
+    }
+}
+
+@media (width > 800px){
+    .circle{
+        width: 1017px;
+        height: 750px;
+        background-image: url(./images/main\ img\ desktop.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -1%;
+        right: -25%;
+    } 
+
+}
+
+@media (width > 800px){
+    .text h1{
+        width: 700px;
+        font-size:56px;
+        padding-left: 14%;
+        margin-top: 15%;
+    }
+}
+
+@media (width > 800px){
+    .p1 p{
+        width: 541px;
+        font-size: 21px;
+        padding-left: 14%;
+    }
+}
+
+@media (width > 800px){
+    .button_text-under{
+        margin-top: 28px;
+        margin-left: 13%;
+    }
+}
+
+@media (width > 800px){
+    .bolo {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1400px;
+        margin-top: 11%;
+    }
+}
+
+@media (width > 800px){
+    .center{
+        height: 283px;
+    }
+
+    .center h1{
+        font-size: 31px;
+        margin-top: 10%;
+    }
+}
+
+
+
+
